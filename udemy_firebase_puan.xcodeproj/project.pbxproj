@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F96AA22F825D7EAA0226EAC /* Pods_udemy_firebase_puan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A7E31E92D3BF0C9933954C /* Pods_udemy_firebase_puan.framework */; };
+		DA303EE228300E0D0078B425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA303EE128300E0D0078B425 /* AppDelegate.swift */; };
+		DA303EE428300E0D0078B425 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA303EE328300E0D0078B425 /* SceneDelegate.swift */; };
+		DA303EE628300E0D0078B425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA303EE528300E0D0078B425 /* ViewController.swift */; };
+		DA303EE928300E0D0078B425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA303EE728300E0D0078B425 /* Main.storyboard */; };
+		DA303EEB28300E0E0078B425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA303EEA28300E0E0078B425 /* Assets.xcassets */; };
+		DA303EEE28300E0E0078B425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA303EEC28300E0E0078B425 /* LaunchScreen.storyboard */; };
+		DA303EF628300E550078B425 /* NotEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA303EF528300E550078B425 /* NotEkleViewController.swift */; };
+		DA303EF828300E5F0078B425 /* NotDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA303EF728300E5F0078B425 /* NotDetayViewController.swift */; };
+		DA303EFA28300E750078B425 /* NotHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA303EF928300E750078B425 /* NotHucreTableViewCell.swift */; };
+		DA303EFC28300E820078B425 /* Notlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA303EFB28300E820078B425 /* Notlar.swift */; };
+		DA6B68CA2830F84D003A913C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA6B68C92830F84D003A913C /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68A7E31E92D3BF0C9933954C /* Pods_udemy_firebase_puan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_udemy_firebase_puan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C260F42D23BA9399894833C /* Pods-udemy_firebase_puan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udemy_firebase_puan.debug.xcconfig"; path = "Target Support Files/Pods-udemy_firebase_puan/Pods-udemy_firebase_puan.debug.xcconfig"; sourceTree = "<group>"; };
+		A5F5D9E9A1A00A86ADD903B7 /* Pods-udemy_firebase_puan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udemy_firebase_puan.release.xcconfig"; path = "Target Support Files/Pods-udemy_firebase_puan/Pods-udemy_firebase_puan.release.xcconfig"; sourceTree = "<group>"; };
+		DA303EDE28300E0D0078B425 /* udemy_firebase_puan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = udemy_firebase_puan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA303EE128300E0D0078B425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA303EE328300E0D0078B425 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA303EE528300E0D0078B425 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA303EE828300E0D0078B425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA303EEA28300E0E0078B425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA303EED28300E0E0078B425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA303EEF28300E0E0078B425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA303EF528300E550078B425 /* NotEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotEkleViewController.swift; sourceTree = "<group>"; };
+		DA303EF728300E5F0078B425 /* NotDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotDetayViewController.swift; sourceTree = "<group>"; };
+		DA303EF928300E750078B425 /* NotHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotHucreTableViewCell.swift; sourceTree = "<group>"; };
+		DA303EFB28300E820078B425 /* Notlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlar.swift; sourceTree = "<group>"; };
+		DA6B68C92830F84D003A913C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA303EDB28300E0D0078B425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F96AA22F825D7EAA0226EAC /* Pods_udemy_firebase_puan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		253086B7AB288A80BAB8FF4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68A7E31E92D3BF0C9933954C /* Pods_udemy_firebase_puan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA303ED528300E0D0078B425 = {
+			isa = PBXGroup;
+			children = (
+				DA303EE028300E0D0078B425 /* udemy_firebase_puan */,
+				DA303EDF28300E0D0078B425 /* Products */,
+				E2641896DD5917082567831D /* Pods */,
+				253086B7AB288A80BAB8FF4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA303EDF28300E0D0078B425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA303EDE28300E0D0078B425 /* udemy_firebase_puan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA303EE028300E0D0078B425 /* udemy_firebase_puan */ = {
+			isa = PBXGroup;
+			children = (
+				DA303EE128300E0D0078B425 /* AppDelegate.swift */,
+				DA303EE328300E0D0078B425 /* SceneDelegate.swift */,
+				DA303EE528300E0D0078B425 /* ViewController.swift */,
+				DA303EF528300E550078B425 /* NotEkleViewController.swift */,
+				DA303EF728300E5F0078B425 /* NotDetayViewController.swift */,
+				DA303EF928300E750078B425 /* NotHucreTableViewCell.swift */,
+				DA303EFB28300E820078B425 /* Notlar.swift */,
+				DA303EE728300E0D0078B425 /* Main.storyboard */,
+				DA303EEC28300E0E0078B425 /* LaunchScreen.storyboard */,
+				DA303EEA28300E0E0078B425 /* Assets.xcassets */,
+				DA303EEF28300E0E0078B425 /* Info.plist */,
+				DA6B68C92830F84D003A913C /* GoogleService-Info.plist */,
+			);
+			path = udemy_firebase_puan;
+			sourceTree = "<group>";
+		};
+		E2641896DD5917082567831D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C260F42D23BA9399894833C /* Pods-udemy_firebase_puan.debug.xcconfig */,
+				A5F5D9E9A1A00A86ADD903B7 /* Pods-udemy_firebase_puan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA303EDD28300E0D0078B425 /* udemy_firebase_puan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA303EF228300E0E0078B425 /* Build configuration list for PBXNativeTarget "udemy_firebase_puan" */;
+			buildPhases = (
+				95A5977917AE06E23013D6E9 /* [CP] Check Pods Manifest.lock */,
+				DA303EDA28300E0D0078B425 /* Sources */,
+				DA303EDB28300E0D0078B425 /* Frameworks */,
+				DA303EDC28300E0D0078B425 /* Resources */,
+				329900D25851D1DF26F01F75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = udemy_firebase_puan;
+			productName = udemy_firebase_puan;
+			productReference = DA303EDE28300E0D0078B425 /* udemy_firebase_puan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA303ED628300E0D0078B425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DA303EDD28300E0D0078B425 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DA303ED928300E0D0078B425 /* Build configuration list for PBXProject "udemy_firebase_puan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA303ED528300E0D0078B425;
+			productRefGroup = DA303EDF28300E0D0078B425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA303EDD28300E0D0078B425 /* udemy_firebase_puan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA303EDC28300E0D0078B425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA303EEE28300E0E0078B425 /* LaunchScreen.storyboard in Resources */,
+				DA6B68CA2830F84D003A913C /* GoogleService-Info.plist in Resources */,
+				DA303EEB28300E0E0078B425 /* Assets.xcassets in Resources */,
+				DA303EE928300E0D0078B425 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		329900D25851D1DF26F01F75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-udemy_firebase_puan/Pods-udemy_firebase_puan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-udemy_firebase_puan/Pods-udemy_firebase_puan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-udemy_firebase_puan/Pods-udemy_firebase_puan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A5977917AE06E23013D6E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-udemy_firebase_puan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA303EDA28300E0D0078B425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA303EE628300E0D0078B425 /* ViewController.swift in Sources */,
+				DA303EFC28300E820078B425 /* Notlar.swift in Sources */,
+				DA303EE228300E0D0078B425 /* AppDelegate.swift in Sources */,
+				DA303EE428300E0D0078B425 /* SceneDelegate.swift in Sources */,
+				DA303EFA28300E750078B425 /* NotHucreTableViewCell.swift in Sources */,
+				DA303EF828300E5F0078B425 /* NotDetayViewController.swift in Sources */,
+				DA303EF628300E550078B425 /* NotEkleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA303EE728300E0D0078B425 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA303EE828300E0D0078B425 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA303EEC28300E0E0078B425 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA303EED28300E0E0078B425 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA303EF028300E0E0078B425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA303EF128300E0E0078B425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA303EF328300E0E0078B425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C260F42D23BA9399894833C /* Pods-udemy_firebase_puan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFMP7MNJM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = udemy_firebase_puan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erenveudemy.udemy-firebase-puan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA303EF428300E0E0078B425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F5D9E9A1A00A86ADD903B7 /* Pods-udemy_firebase_puan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFMP7MNJM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = udemy_firebase_puan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erenveudemy.udemy-firebase-puan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA303ED928300E0D0078B425 /* Build configuration list for PBXProject "udemy_firebase_puan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA303EF028300E0E0078B425 /* Debug */,
+				DA303EF128300E0E0078B425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA303EF228300E0E0078B425 /* Build configuration list for PBXNativeTarget "udemy_firebase_puan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA303EF328300E0E0078B425 /* Debug */,
+				DA303EF428300E0E0078B425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA303ED628300E0D0078B425 /* Project object */;
+}
